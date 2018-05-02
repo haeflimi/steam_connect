@@ -13,7 +13,7 @@ the Valve Corporation in any way.**
 - Install the Package via c5 Dashboard.
 - On /dashboard/system/registration/authentication Steam should be available as a Authentication
 type now.
-- Edit, enter your Steam API Key and activate it. [get you own Steam API Key](https://steamcommunity.com/dev/apikey)
+- Edit, enter your Steam API Key and activate it. [Get you own Steam API Key](https://steamcommunity.com/dev/apikey)
 - You are good to login with Steam now.
 
 ## Features ##
@@ -33,7 +33,7 @@ type now.
 
 ## Credits ##
 
-- Thanks to the concrete 5 core theme for crating an amazing CMS.
+- Thanks to the concrete 5 core team for crating and maintaining an amazing CMS.
 
 ## Support ##
 
