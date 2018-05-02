@@ -33,7 +33,7 @@ type now.
 
 ## Credits ##
 
-- Thanks to the concrete 5 core team for crating and maintaining an amazing CMS.
+- Thanks to the concrete 5 core team for creating and maintaining an amazing CMS.
 
 ## Support ##
 
