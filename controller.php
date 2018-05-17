@@ -8,13 +8,13 @@ use Package,
 
 class Controller extends Package
 {
-    protected $pkgHandle = 'steam';
+    protected $pkgHandle = 'steam_connect';
     protected $appVersionRequired = '5.7.4';
     protected $pkgVersion = '0.9';
 
     public function getPackageName()
     {
-        return t('Steam');
+        return t('Steam Connect');
     }
 
     public function getPackageDescription()
