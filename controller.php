@@ -1,5 +1,5 @@
 <?php
-namespace Concrete\Package\SteamAuthentication;
+namespace Concrete\Package\SteamConnect;
 
 use Package,
     Core,
