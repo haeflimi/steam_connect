@@ -15,7 +15,7 @@ use LightOpenID;
 class Controller extends GenericOauth2TypeController
 {
     protected $openid;
-    protected $openid_identity = 'http://steamcommunity.com/openid';
+    protected $openid_identity = 'https://steamcommunity.com/openid';
     protected $authenticationTypeImage = '';
 
     public function registrationGroupID()
@@ -119,7 +119,7 @@ class Controller extends GenericOauth2TypeController
 
     private function extractSteamId($openid){
         $id = $openid->data['openid_identity'];
-        $ptn = "/^http:\/\/steamcommunity\.com\/openid\/id\/(7[0-9]{15,25}+)$/";
+        $ptn = "/^https:\/\/steamcommunity\.com\/openid\/id\/(7[0-9]{15,25}+)$/";
         preg_match($ptn, $id, $matches);
         return $matches[1];
     }
